@@ -32,7 +32,7 @@ jobs:
       - name: Run Security Check
         run: node app.js
         env:
-          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
+          WEATHER_API_KEY: abc123
 
   package:
     needs: build-and-test
